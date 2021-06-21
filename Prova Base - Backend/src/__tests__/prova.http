@@ -1,0 +1,12 @@
+###
+POST http://localhost:3000/classe/cadastrar
+Content-Type: application/json
+
+{
+    "nome": "asdd",
+    "isbn": "Valor asdasd2",
+    "preco": 1234
+}
+
+###
+GET http://localhost:3000/classe/listar
